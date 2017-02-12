@@ -1,0 +1,6 @@
+framework module Pods_GridReaderTests {
+  umbrella header "Pods-GridReaderTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

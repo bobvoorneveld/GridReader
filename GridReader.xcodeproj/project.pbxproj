@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6757ADBA61873B3E46B88171 /* Pods_GridReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E50663247250735368FD1A2 /* Pods_GridReaderTests.framework */; };
 		C45C33D81E4FB85400324DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C33D71E4FB85400324DF0 /* AppDelegate.swift */; };
 		C45C33DA1E4FB85400324DF0 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C33D91E4FB85400324DF0 /* MasterViewController.swift */; };
 		C45C33DC1E4FB85400324DF0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C33DB1E4FB85400324DF0 /* DetailViewController.swift */; };
@@ -14,6 +15,11 @@
 		C45C33E11E4FB85400324DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45C33E01E4FB85400324DF0 /* Assets.xcassets */; };
 		C45C33E41E4FB85400324DF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C33E21E4FB85400324DF0 /* LaunchScreen.storyboard */; };
 		C45C33EF1E4FB85400324DF0 /* GridReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C33EE1E4FB85400324DF0 /* GridReaderTests.swift */; };
+		C45C33FB1E4FB8B700324DF0 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C33FA1E4FB8B700324DF0 /* Webservice.swift */; };
+		C45C33FD1E4FB8F300324DF0 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C33FC1E4FB8F300324DF0 /* Resource.swift */; };
+		C45C34011E4FBB3000324DF0 /* EnergyLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C34001E4FBB3000324DF0 /* EnergyLog.swift */; };
+		C45C34031E4FBB8000324DF0 /* Household.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45C34021E4FBB8000324DF0 /* Household.swift */; };
+		CE12775EC6F3D3004AB7032D /* Pods_GridReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71385D7BACF3B2FB11E700B /* Pods_GridReader.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11667382501585CB82F4F9B7 /* Pods-GridReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridReader/Pods-GridReader.debug.xcconfig"; sourceTree = "<group>"; };
+		170A2A7AC8A8E5AFE7150E89 /* Pods-GridReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridReaderTests/Pods-GridReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		87EBAFC4F15AD6698D0DBC9E /* Pods-GridReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-GridReader/Pods-GridReader.release.xcconfig"; sourceTree = "<group>"; };
+		8E50663247250735368FD1A2 /* Pods_GridReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B059C147E8F58DD7A1A02C18 /* Pods-GridReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GridReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GridReaderTests/Pods-GridReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B71385D7BACF3B2FB11E700B /* Pods_GridReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GridReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C33D41E4FB85400324DF0 /* GridReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C33D71E4FB85400324DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C45C33D91E4FB85400324DF0 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +50,10 @@
 		C45C33EA1E4FB85400324DF0 /* GridReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GridReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C33EE1E4FB85400324DF0 /* GridReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridReaderTests.swift; sourceTree = "<group>"; };
 		C45C33F01E4FB85400324DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45C33FA1E4FB8B700324DF0 /* Webservice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Webservice.swift; path = Model/Webservice.swift; sourceTree = "<group>"; };
+		C45C33FC1E4FB8F300324DF0 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Model/Resource.swift; sourceTree = "<group>"; };
+		C45C34001E4FBB3000324DF0 /* EnergyLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnergyLog.swift; path = Model/EnergyLog.swift; sourceTree = "<group>"; };
+		C45C34021E4FBB8000324DF0 /* Household.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Household.swift; path = Model/Household.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE12775EC6F3D3004AB7032D /* Pods_GridReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6757ADBA61873B3E46B88171 /* Pods_GridReaderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A9B29F22A12ADB29F102F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B71385D7BACF3B2FB11E700B /* Pods_GridReader.framework */,
+				8E50663247250735368FD1A2 /* Pods_GridReaderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A390428075E4C9C55604B85C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11667382501585CB82F4F9B7 /* Pods-GridReader.debug.xcconfig */,
+				87EBAFC4F15AD6698D0DBC9E /* Pods-GridReader.release.xcconfig */,
+				B059C147E8F58DD7A1A02C18 /* Pods-GridReaderTests.debug.xcconfig */,
+				170A2A7AC8A8E5AFE7150E89 /* Pods-GridReaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C45C33CB1E4FB85400324DF0 = {
 			isa = PBXGroup;
 			children = (
 				C45C33D61E4FB85400324DF0 /* GridReader */,
 				C45C33ED1E4FB85400324DF0 /* GridReaderTests */,
 				C45C33D51E4FB85400324DF0 /* Products */,
+				A390428075E4C9C55604B85C /* Pods */,
+				82A9B29F22A12ADB29F102F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +119,7 @@
 		C45C33D61E4FB85400324DF0 /* GridReader */ = {
 			isa = PBXGroup;
 			children = (
+				C45C33F91E4FB8A300324DF0 /* Model */,
 				C45C33D71E4FB85400324DF0 /* AppDelegate.swift */,
 				C45C33D91E4FB85400324DF0 /* MasterViewController.swift */,
 				C45C33DB1E4FB85400324DF0 /* DetailViewController.swift */,
@@ -99,6 +140,17 @@
 			path = GridReaderTests;
 			sourceTree = "<group>";
 		};
+		C45C33F91E4FB8A300324DF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C45C33FA1E4FB8B700324DF0 /* Webservice.swift */,
+				C45C33FC1E4FB8F300324DF0 /* Resource.swift */,
+				C45C34001E4FBB3000324DF0 /* EnergyLog.swift */,
+				C45C34021E4FBB8000324DF0 /* Household.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45C33F31E4FB85400324DF0 /* Build configuration list for PBXNativeTarget "GridReader" */;
 			buildPhases = (
+				FC7819B656F14A60B657C00F /* [CP] Check Pods Manifest.lock */,
 				C45C33D01E4FB85400324DF0 /* Sources */,
 				C45C33D11E4FB85400324DF0 /* Frameworks */,
 				C45C33D21E4FB85400324DF0 /* Resources */,
+				916F11D199066247AE8C8CA7 /* [CP] Embed Pods Frameworks */,
+				AA844E30E6BCC94D2933BDA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45C33F61E4FB85400324DF0 /* Build configuration list for PBXNativeTarget "GridReaderTests" */;
 			buildPhases = (
+				F7ECC82D39991EA06FDE8071 /* [CP] Check Pods Manifest.lock */,
 				C45C33E61E4FB85400324DF0 /* Sources */,
 				C45C33E71E4FB85400324DF0 /* Frameworks */,
 				C45C33E81E4FB85400324DF0 /* Resources */,
+				C4FB4B0416B7CF7DB187D469 /* [CP] Embed Pods Frameworks */,
+				A6F41FFD0AC031DBCC034412 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +257,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		916F11D199066247AE8C8CA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridReader/Pods-GridReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F41FFD0AC031DBCC034412 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridReaderTests/Pods-GridReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA844E30E6BCC94D2933BDA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridReader/Pods-GridReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FB4B0416B7CF7DB187D469 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GridReaderTests/Pods-GridReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7ECC82D39991EA06FDE8071 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7819B656F14A60B657C00F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C45C33D01E4FB85400324DF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -206,6 +357,10 @@
 			files = (
 				C45C33DC1E4FB85400324DF0 /* DetailViewController.swift in Sources */,
 				C45C33DA1E4FB85400324DF0 /* MasterViewController.swift in Sources */,
+				C45C34011E4FBB3000324DF0 /* EnergyLog.swift in Sources */,
+				C45C33FB1E4FB8B700324DF0 /* Webservice.swift in Sources */,
+				C45C34031E4FBB8000324DF0 /* Household.swift in Sources */,
+				C45C33FD1E4FB8F300324DF0 /* Resource.swift in Sources */,
 				C45C33D81E4FB85400324DF0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +498,7 @@
 		};
 		C45C33F41E4FB85400324DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11667382501585CB82F4F9B7 /* Pods-GridReader.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53D9YP898L;
@@ -356,6 +512,7 @@
 		};
 		C45C33F51E4FB85400324DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87EBAFC4F15AD6698D0DBC9E /* Pods-GridReader.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 53D9YP898L;
@@ -369,6 +526,7 @@
 		};
 		C45C33F71E4FB85400324DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B059C147E8F58DD7A1A02C18 /* Pods-GridReaderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -384,6 +542,7 @@
 		};
 		C45C33F81E4FB85400324DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 170A2A7AC8A8E5AFE7150E89 /* Pods-GridReaderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,6 +575,7 @@
 				C45C33F51E4FB85400324DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C45C33F61E4FB85400324DF0 /* Build configuration list for PBXNativeTarget "GridReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +584,7 @@
 				C45C33F81E4FB85400324DF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
